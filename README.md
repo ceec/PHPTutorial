@@ -1,5 +1,10 @@
 # PHP Tutorial
-PHP Tutorial
+Materials you will need
+- A server that has PHP (5.5+ would be best)
+- Acess to a MySQL Database
+- Acess to phpMyAdmin
+- Text editor
+
 
 
 # Hello! Welcome to the tutorial!
