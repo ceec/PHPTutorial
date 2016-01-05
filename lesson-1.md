@@ -12,19 +12,24 @@ Concerpts Covered:
 ###Steps
 
 1. Build a form
-  *Create a form that submits with a POST to the current page. 
+
+   Create a form that submits with a POST to the current page.  
 
 2. Create the ListItems MySQL table
-  *In phpMyAdmin, create a new table called ListItems.
+
+   In phpMyAdmin, create a new table called ListItems.  
 
 3. Connect to the database
-  *Create a database connection using PDO to connect to the table you have created.
+
+   Create a database connection using PDO to connect to the table you have created.  
 
 4. Save the list items
-  *The form that you have POSTing to the current page, have it INSERT the new list item to the ListItems table.
+
+   The form that you have POSTing to the current page, have it INSERT the new list item to the ListItems table.  
 
 5. Displaying the list items
-  *Use a SELECT statement to retrieve the items from ListItems
+
+   Use a SELECT statement to retrieve the items from ListItems.  
 
 ###Resources
 php.net - http://php.net/ This is the offical documenation for PHP, look here when looking for a function or seeing what something does
