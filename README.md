@@ -5,7 +5,8 @@ Materials you will need
 - Acess to phpMyAdmin
 - Text editor
 
-
+#MVC Frameworks
+- Laravel -https://laravel.com/
 
 # Hello! Welcome to the tutorial!
 <a href="http://www.webmonkey.com/2010/02/php_tutorial_for_beginners/">Take a look at this tutorial, it is an overview of what PHP is and what it can do</a></p>
