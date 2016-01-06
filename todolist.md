@@ -36,17 +36,11 @@ Forms are all over the internet as a way of submitting user inputted data. Here 
    <input type="submit" name="save" value="Click to Save">
 </form>
 ```
-And its output will look like this
-
-<form action="file-you-want-to-submit-to.php" method="POST>
-   <input type="text" name="name" value="">
-   <input type="submit" name="save" value="Click to Save">
-</form>
-
 Let's look at the first line of the form.
 ```HTML
 <form action="file-you-want-to-submit-to.php" method="POST>
 ```
+
 The action is where the data will be sent to. 
 The method is what HTTP method is used to send the data. You can use either POST or GET
 
@@ -55,7 +49,8 @@ With PHP, a form submitted with the POST method has its data in the global $_POS
 When you click on the submit button, the page will reload (if you used the current page as the action) or go to the page specfied. On that page you can then access your data values in the global $_POST or $_GET variables.
 
 You can see what is in global variables by printing them to the screen using print_r(). print_r() is like print or echo, only it takes an array as an input.
-```PHP
+
+```
 $string = 'Hello';
 echo $string; //This will print out: Hello
 print $string; //This will print out: Hello
@@ -66,15 +61,16 @@ echo $array; //This will print out: Array
 print $array; //This will print out: Array 
 print_r($array); //This will actually print out the items in your array
 ```
+
 So when you want to print out what is in an array, use print_r();
 
-Wrapping the print_r in <pre> tags puts the data in a more friendly to read format. 
+Wrapping the print_r in `<pre>` tags puts the data in a more friendly to read format. 
+
 ```PHP
 print '<pre>';
 print_r($_POST);
 print '</pre>';
 ```
-
 Now you can see that the data you submitted in the form is indeed in the global variable. Now let's do something with that data.
 
 
