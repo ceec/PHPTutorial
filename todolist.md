@@ -50,7 +50,7 @@ When you click on the submit button, the page will reload (if you used the curre
 
 You can see what is in global variables by printing them to the screen using print_r(). print_r() is like print or echo, only it takes an array as an input.
 
-```
+```PHP
 $string = 'Hello';
 echo $string; //This will print out: Hello
 print $string; //This will print out: Hello
